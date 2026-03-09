@@ -2,7 +2,7 @@ import './style.css';
 import { initCanvas, initDustCanvas } from './canvas.js';
 import { initAnimations } from './animations.js';
 import { initPortfolio } from './portfolio.js';
-import { supabase } from '/src/lib/supabase.js';
+import { supabase } from './src/lib/supabase.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize Background Canvas

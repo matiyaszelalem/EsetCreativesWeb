@@ -1,5 +1,5 @@
 import gsap from 'gsap';
-import { supabase } from '/src/lib/supabase.js';
+import { supabase } from './src/lib/supabase.js';
 
 export function initPortfolio() {
     const grid = document.getElementById('portfolio-grid');
